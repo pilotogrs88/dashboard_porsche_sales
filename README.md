@@ -1,12 +1,14 @@
 # Porsche Sales Dashboard
 
-Dashboard interativo para explorar dados de vendas de veículos Porsche, com filtros e visualizações por modelo e cidade.
+Dashboard interativo para explorar uma base demonstrativa de vendas de veículos Porsche, com indicadores, filtros e visualizações por modelo, cidade e estado.
 
-## Acessar o dashboard
+## Demonstração ao vivo
 
-Após ativar o GitHub Pages, o site ficará disponível em:
+**[Abrir o dashboard publicado](https://pilotogrs88.github.io/dashboard_porsche_sales/)**
 
-`https://pilotogrs88.github.io/dashboard_porsche_sales/`
+## Visão geral
+
+O dashboard permite explorar os registros por meio de filtros, comparar famílias de veículos e consultar indicadores e status de entrega. Os valores e registros exibidos devem ser tratados como dados demonstrativos, não como informações oficiais da Porsche.
 
 ## Estrutura do repositório
 
@@ -19,26 +21,31 @@ dashboard_porsche_sales/
     └── print-filtro.png
 ```
 
-### Arquivos
+## Capturas de tela
 
-- `index.html`: dashboard.
-- `README.md`: documentação do projeto.
-- `docs/print.png`: captura de tela principal do dashboard.
-- `docs/print-filtro.png`: captura de tela mostrando os filtros aplicados.
+### Visão geral
 
-## Adicionar as capturas de tela
+![Visão geral do dashboard](docs/print.png)
 
-Na página do repositório, use **Add file → Upload files** e envie as duas imagens dentro de uma pasta chamada `docs`, mantendo exatamente estes nomes:
+### Dashboard com filtros aplicados
 
-- `print.png`
-- `print-filtro.png`
+![Dashboard com filtros aplicados](docs/print-filtro.png)
 
-O GitHub cria a pasta `docs` automaticamente ao enviar os arquivos com esse caminho.
+## Tecnologias
+
+- HTML
+- CSS
+- JavaScript
 
 ## Publicação
 
-O projeto é estático e pode ser publicado pelo GitHub Pages usando a branch `main` e a pasta raiz (`/(root)`).
+O projeto é uma aplicação estática hospedada pelo GitHub Pages. O arquivo `index.html` fica na raiz da branch `main`.
 
 ## Dados e privacidade
 
-Use apenas dados fictícios ou anonimizados na versão pública. Não publique planilhas originais, dados pessoais ou informações comerciais confidenciais no HTML, JavaScript ou em arquivos acessíveis publicamente.
+Esta demonstração deve utilizar somente dados fictícios, públicos ou devidamente anonimizados. Não publique planilhas originais, dados pessoais ou informações comerciais confidenciais no HTML, JavaScript ou em arquivos acessíveis publicamente.
+
+## Autor
+
+Desenvolvido por Gustavo Silva.  
+GitHub: [@pilotogrs88](https://github.com/pilotogrs88)
